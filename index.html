@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="relative">
+        <nav class="flex justify-between bg-green-500 h-10 items-center fixed w-screen" >
+            <H1 class="mx-3">FARM FOOD</H1>
+            <div class="flex gap-6 mx-3" >
+                <h2 class="hover:cursor-pointer hover:bg-black hover:text-white hover:rounded-lg">About Us</h2>
+                <h2 class="hover:cursor-pointer hover:bg-black hover:text-white hover:rounded-lg">Products</h2>
+                <h2 class="hover:cursor-pointer hover:bg-black hover:text-white hover:rounded-lg">Contact Us</h2>
+                <h2 class="hover:cursor-pointer hover:bg-black hover:text-white hover:rounded-lg">Sign Up</h2>
+            </div>
+        </nav>
+        <div class="absolute top-20 left-10 h-96 w-96 ">
+            <h1 class="text-6xl">OUR MOTTO</h1>
+            <P class="text-white">
+                "At our farm, we cultivate more than crops; we cultivate health, sustainability, and the purest essence of nature. Our commitment to providing organic food products to the public is rooted in the belief that the earth's bounty should nourish without compromise. Through dedicated stewardship of the land and unwavering respect for natural processes, we grow and harvest each crop with a promise—to deliver food that is not just free of chemicals but rich in taste, nutrients, and the wholesome goodness only nature can offer. Our motto is simple yet profound: Cultivating Nature's Best, Sustaining Health for All. We take pride in sowing the seeds of a healthier future, one harvest at a time."
+                </P>
+        </div>
+        <img src="./images/farm.jpg" alt="farm" class="h-screen w-screen" absolute>
+        <div class="absolute top-20 right-20 border rounded-xl border-solid border-black">
+            <h1 class="text-center">SIGN UP</h1>
+            <table>
+                <tr>
+                    <td><label class="inline-block" for="name">NAME:</label></td>
+                    <td><input class="inline-block" type="text" id="name"></td>
+                </tr>
+                <tr>
+                    <td><label class="inline-block" for="number">PHONE NO.</label></td>
+                    <td><input class="inline-block" type="number" id="number"></td>
+                </tr>
+                <tr>
+                    <td><label class="inline-block" for="email">Email</label></td>
+                    <td><input class="inline-block" type="email" id="email"></td>
+                </tr>
+                
+            </table>
+            <div class="w-full flex items-center justify-center">
+            <button class="hover:bg-sky-300 hover:shadow hover:shadow-black hover:border hover:border-spacing-20 hover:border-black min-w-fit">SUBMIT</button>
+        </div>
+            </form>
+        </div>
+        <div>
+        </div>
+    </div>
+    <div class="absolute bottom-20 right-28 text-white text-5xl">
+        <h1>THANKS FOR VISITING</h1>
+    </div>
+</div>
+</body>
+</html>
